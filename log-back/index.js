@@ -4,7 +4,7 @@ const cors = require("cors");
 
 const app = express();
 
-mongoose.connect("mongodb+srv://admin:12345qwert@cluster0.gvacque.mongodb.net/log-reg");
+mongoose.connect("");
 
 app.use(express.json())
 app.use(cors());
